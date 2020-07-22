@@ -24,7 +24,6 @@ nav a.nav-link {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #fcf8f8;
-  margin-top: -150px;
 }
 
 .container-fluid h2 {
@@ -37,7 +36,7 @@ nav a.nav-link {
 }
 
 .container-fluid img {
-  width: 60.6875rem;
+  width: 45.6875rem;
   margin-left: 60px;
 }
 
