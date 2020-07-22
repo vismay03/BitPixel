@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(247, 240, 240);
+}
+
+nav {
+    width: 100%;
+
+    padding: 30px 0;
+    a {
+        padding: 1.25rem;
+    }
+    a.navbar-brand{
+        color: rgb(0,0,0);
+    }
+    a.nav-link{
+        color: rgb(44, 39, 39);
+    }
+
+}
+
+.scontainer {
+    display: flex;
+    margin-top: 1.25rem;
+    .part {
+        align-self: center;
+        width: 400px;
+        margin-left: 80px;
+    }
+    img{
+        width: 42.6875rem;
+        margin-left: 100px;
+    }
+}

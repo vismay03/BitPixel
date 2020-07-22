@@ -1,0 +1,41 @@
+body {
+  background-color: #f7f0f0;
+}
+
+nav {
+  width: 100%;
+  padding: 30px 0;
+}
+
+nav a {
+  padding: 1.25rem;
+}
+
+nav a.navbar-brand {
+  color: black;
+}
+
+nav a.nav-link {
+  color: #2c2727;
+}
+
+.scontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.25rem;
+}
+
+.scontainer .part {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 400px;
+  margin-left: 80px;
+}
+
+.scontainer img {
+  width: 42.6875rem;
+  margin-left: 100px;
+}
+/*# sourceMappingURL=style.css.map */

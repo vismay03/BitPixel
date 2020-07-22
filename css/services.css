@@ -1,0 +1,63 @@
+nav {
+  width: 100%;
+  background-color: #fcf8f8;
+  padding: 30px 0;
+}
+
+nav a {
+  padding: 1.25rem;
+}
+
+nav a.navbar-brand {
+  color: black;
+}
+
+nav a.nav-link {
+  color: #2c2727;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fcf8f8;
+  margin-top: -150px;
+}
+
+.container-fluid h2 {
+  font-size: 3.125rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 25rem;
+  margin-left: 9.25rem;
+}
+
+.container-fluid img {
+  width: 60.6875rem;
+  margin-left: 60px;
+}
+
+.service1 {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service1 .section {
+  width: 25rem;
+}
+
+.service1 .section h6 {
+  color: rgba(26, 46, 102, 0.76);
+}
+
+.service1 img {
+  width: 36.6875rem;
+  margin-left: 60px;
+}
+/*# sourceMappingURL=services.css.map */
