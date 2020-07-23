@@ -21,6 +21,10 @@ nav a.nav-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 60px 0;
 }
 
@@ -29,24 +33,26 @@ nav a.nav-link {
       -ms-grid-row-align: center;
       align-self: center;
   width: 400px;
-  margin-left: 80px;
 }
 
 .scontainer img {
   width: 42.6875rem;
-  margin-left: 100px;
 }
 
 .service {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 0;
 }
 
 .service .section {
-  margin-left: 160px;
-  width: 22rem;
+  margin-top: 20px;
+  width: 20rem;
 }
 
 .service .section h6 {
@@ -54,10 +60,9 @@ nav a.nav-link {
 }
 
 .service img {
-  width: 16.6875rem;
-  margin-left: -30px;
+  width: 13.6875rem;
   padding: 0;
-  height: 270px;
+  height: 13.875rem;
 }
 
 .service2 {
@@ -65,12 +70,59 @@ nav a.nav-link {
   background-color: #faf8f8;
 }
 
-.service2 .section {
-  margin-left: -100px;
+.service2 img {
+  margin-top: 20px;
+  width: 11rem;
+  padding: 30px;
+  height: 14.875rem;
 }
 
-.service2 img {
-  margin-left: 160px;
-  width: 160px;
+.service4 {
+  padding: 40px 0;
+  background-color: #faf8f8;
+}
+
+.service4 img {
+  padding: 30px;
+  height: 14.875rem;
+  width: 11rem;
+}
+
+.team {
+  background-color: #faf8f8;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.team h2 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.team .team-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team .team-container .member {
+  text-align: center;
+}
+
+.team .team-container .member img {
+  width: 200px;
+  height: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 500px) {
+  .team .member img {
+    width: 300px;
+    height: 280px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
