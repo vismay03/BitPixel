@@ -1,9 +1,6 @@
-body {
-  background-color: #f7f0f0;
-}
-
 nav {
   width: 100%;
+  background-color: #f7f0f0;
   padding: 30px 0;
 }
 
@@ -20,10 +17,11 @@ nav a.nav-link {
 }
 
 .scontainer {
+  background-color: #faf8f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1.25rem;
+  padding: 60px 0;
 }
 
 .scontainer .part {
@@ -37,5 +35,42 @@ nav a.nav-link {
 .scontainer img {
   width: 42.6875rem;
   margin-left: 100px;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.service .section {
+  margin-left: 160px;
+  width: 22rem;
+}
+
+.service .section h6 {
+  color: rgba(26, 46, 102, 0.76);
+}
+
+.service img {
+  width: 16.6875rem;
+  margin-left: -30px;
+  padding: 0;
+  height: 270px;
+}
+
+.service2 {
+  padding: 40px 0;
+  background-color: #faf8f8;
+}
+
+.service2 .section {
+  margin-left: -100px;
+}
+
+.service2 img {
+  margin-left: 160px;
+  width: 160px;
 }
 /*# sourceMappingURL=style.css.map */
