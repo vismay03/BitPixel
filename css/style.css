@@ -5,27 +5,38 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-nav a {
+nav .navBar {
+  display: none;
+  margin: 0;
+}
+
+nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .navbar a {
   padding: 1.25rem;
 }
 
-nav a.navbar-brand {
+nav .navbar a.navbar-brand {
   color: black;
 }
 
-nav a.nav-link {
+nav .navbar a.nav-link {
   color: #2c2727;
 }
 
-nav .bars {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+nav .nt {
   display: none;
 }
 
@@ -286,41 +297,44 @@ footer p.copyright {
 }
 
 @media only screen and (max-width: 600px) {
-  .nav {
-    width: 100%;
+  nav {
     background-color: #f7f0f0;
     padding: 30px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
-  .nav .navbar {
+  nav .navBar {
+    display: block;
+  }
+  nav .navBar .custom {
+    text-align: center;
+    width: 83%;
+  }
+  nav .navbar {
     display: none;
   }
-  .nav span {
+  nav .editBrand {
     width: 80%;
+    margin: 0;
     text-align: center;
   }
-  .nav a {
+  nav a {
     padding: 0.25rem 0;
     display: block;
   }
-  .nav a.navbar-brand {
+  nav a.navbar-brand {
     color: black;
   }
-  .nav a.nav-link {
+  nav a.nav-link {
     color: #2c2727;
   }
-  .nav .bars {
+  nav .nt {
     display: block;
-    text-align: right;
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 600px) and (max-width: 950px) {
   .scontainer {
     background-color: #faf8f8;
     display: -webkit-box;

@@ -5,21 +5,35 @@ nav {
     background-color: rgb(247, 240, 240);
     padding: 30px 0;
     display: flex;
+    align-items: center;
     justify-content: center;
-    a {
-        padding: 1.25rem;
+
+    .navBar {
+        display: none;
+        margin: 0;
+}
+    .navbar {
+        display: flex;
+        a {
+            padding: 1.25rem;
+        }
+        a.navbar-brand{
+            color: rgb(0,0,0);
+        }
+        a.nav-link{
+            color: rgb(44, 39, 39);
+        }
     }
-    a.navbar-brand{
-        color: rgb(0,0,0);
-    }
-    a.nav-link{
-        color: rgb(44, 39, 39);
-    }
-    .bars {
-        align-self: center;
+
+    .nt  {
         display: none;
     }
+  
 }
+
+
+
+
 
 .scontainer {
     background-color: rgb(250, 248, 248);
@@ -205,18 +219,29 @@ p.copyright {
 
 
 @media only screen and (max-width:600px){
-.nav {
-    width: 100%;
+nav {
+
     background-color: rgb(247, 240, 240);
     padding: 30px 0;
     display: flex;
+    .navBar {
+    display: block;
+        .custom {
 
-    justify-content: center;
+            text-align: center;
+            width: 83%;
+            
+        }
+    
+    
+}
+
     .navbar{
         display: none;
     }
-    span {
+    .editBrand {
         width: 80%;
+        margin: 0;
         text-align: center;
     }
     a {
@@ -230,18 +255,13 @@ p.copyright {
         color: rgb(44, 39, 39);
     }
 
-    .bars {
-        
+    .nt  {
         display: block;
-    
-        text-align: right;
-        i {
-            
-        }
     }
+    
+}
 
-}
-}
+
 
 
 @media only screen and (max-width:950px) {
@@ -260,7 +280,7 @@ p.copyright {
             width: 22.6875rem;
         }
     }
-
+}
 }
 @media only screen and (max-width:500px) {
     .team {
@@ -304,4 +324,3 @@ p.copyright {
         
     }
 }
-
