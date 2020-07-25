@@ -4,6 +4,8 @@ nav {
     width: 100%;
     background-color: rgb(247, 240, 240);
     padding: 30px 0;
+    display: flex;
+    justify-content: center;
     a {
         padding: 1.25rem;
     }
@@ -13,7 +15,10 @@ nav {
     a.nav-link{
         color: rgb(44, 39, 39);
     }
-
+    .bars {
+        align-self: center;
+        display: none;
+    }
 }
 
 .scontainer {
@@ -195,6 +200,46 @@ p.copyright {
     text-align: center;
     padding: 5px 0 0 0;
     margin-bottom: 0;
+}
+}
+
+
+@media only screen and (max-width:600px){
+.nav {
+    width: 100%;
+    background-color: rgb(247, 240, 240);
+    padding: 30px 0;
+    display: flex;
+
+    justify-content: center;
+    .navbar{
+        display: none;
+    }
+    span {
+        width: 80%;
+        text-align: center;
+    }
+    a {
+        padding: 0.25rem 0;
+        display: block;
+    }
+    a.navbar-brand{
+        color: rgb(0,0,0);
+    }
+    a.nav-link{
+        color: rgb(44, 39, 39);
+    }
+
+    .bars {
+        
+        display: block;
+    
+        text-align: right;
+        i {
+            
+        }
+    }
+
 }
 }
 
